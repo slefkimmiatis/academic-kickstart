@@ -1,0 +1,253 @@
+@ARTICLE{TIP2019,
+author={F. {Kokkinos} and S. {Lefkimmiatis}},
+journal={IEEE Transactions on Image Processing},
+title={Iterative Joint Image Demosaicking and Denoising Using a Residual Denoising Network},
+year={2019},
+volume={28},
+number={8},
+pages={4177-4188},
+abstract={Modern digital cameras rely on the sequential execution of separate image processing steps to produce realistic images. The first two steps are usually related to denoising and demosaicking, where the former aims to reduce noise from the sensor and the latter converts a series of light intensity readings to color images. Modern approaches try to jointly solve these problems, i.e., joint denoising-demosaicking, which is an inherently ill-posed problem given that two-thirds of the intensity information is missing and the rest is perturbed by noise. While there are several machine learning systems that have been recently introduced to solve this problem, the majority of them rely on generic network architectures, which do not explicitly consider the physical image model. In this paper, we propose a novel algorithm that is inspired by powerful classical image regularization methods, large-scale optimization, and deep learning techniques. Consequently, our derived iterative optimization algorithm, which involves a trainable denoising network, has a transparent and clear interpretation compared with other black-box data driven approaches. Our extensive experimentation line demonstrates that our proposed method outperforms any previous approaches for both noisy and noise-free data across many different datasets. This improvement in reconstruction quality is attributed to the rigorous derivation of an iterative solution and the principled way we design our denoising network architecture, which as a result requires fewer trainable parameters than the current state-of-the-art solution, and furthermore can be efficiently trained by using a significantly smaller number of training data than existing deep demosaicking networks.},
+keywords={cameras;computer vision;image colour analysis;image denoising;image reconstruction;image restoration;image segmentation;iterative methods;learning (artificial intelligence);object recognition;optimisation;light intensity readings;intensity information;machine learning systems;generic network architectures;physical image model;large-scale optimization;deep learning techniques;trainable denoising network;black-box data;noise-free data;denoising network architecture;deep demosaicking networks;iterative joint image demosaicking;residual denoising network;modern digital cameras;sequential execution;joint denoising-demosaicking;image regularization methods;iterative optimization algorithm;image processing steps;Noise reduction;Image reconstruction;Noise measurement;Pipelines;Image color analysis;Training;Deep learning;denoising;demosaicking;image restoration;proximal methods;majorization-minimization},
+doi={10.1109/TIP.2019.2905991},
+ISSN={1941-0042},
+month={Aug},
+url="https://arxiv.org/pdf/1807.06403.pdf"}
+
+@ARTICLE{TMI2017,
+author={A. {Saucedo} and S. {Lefkimmiatis} and N. {Rangwala} and K. {Sung}},
+journal={IEEE Transactions on Medical Imaging},
+title={Improved Computational Efficiency of Locally Low Rank MRI Reconstruction Using Iterative Random Patch Adjustments},
+year={2017},
+volume={36},
+number={6},
+pages={1209-1220},
+abstract={This paper presents and analyzes an alternative formulation of the locally low-rank (LLR) regularization framework for magnetic resonance image (MRI) reconstruction. Generally, LLR-based MRI reconstruction techniques operate by dividing the underlying image into a collection of matrices formed from image patches. Each of these matrices is assumed to have low rank due to the inherent correlations among the data, whether along the coil, temporal, or multi-contrast dimensions. The LLR regularization has been successful for various MRI applications, such as parallel imaging and accelerated quantitative parameter mapping. However, a major limitation of most conventional implementations of the LLR regularization is the use of multiple sets of overlapping patches. Although the use of overlapping patches leads to effective shift-invariance, it also results in high-computational load, which limits the practical utility of the LLR regularization for MRI. To circumvent this problem, alternative LLR-based algorithms instead shift a single set of non-overlapping patches at each iteration, thereby achieving shift-invariance and avoiding block artifacts. A novel contribution of this paper is to provide a mathematical framework and justification of LLR regularization with iterative random patch adjustments (LLR-IRPA). This method is compared with a state-of-the-art LLR regularization algorithm based on overlapping patches, and it is shown experimentally that results are similar but with the advantage of much reduced computational load. We also present theoretical results demonstrating the effective shift invariance of the LLR-IRPA approach, and we show reconstruction examples and comparisons in both retrospectively and prospectively undersampled MRI acquisitions, and in T1 parameter mapping.},
+keywords={biomedical MRI;image reconstruction;image sampling;iterative methods;medical image processing;improved computational efficiency;locally low rank MRI reconstruction;iterative random patch adjustments;magnetic resonance image reconstruction;LLR-based MRI reconstruction;matrices collection;image patches;coil;temporal dimensions;multicontrast dimensions;parallel imaging;accelerated quantitative parameter mapping;LLR regularization;effective shift-invariance;high-computational load;alternative LLR-based algorithms;mathematical framework;undersampled MRI acquisitions;T1 parameter mapping;Image reconstruction;Magnetic resonance imaging;Acceleration;Optimization;Partitioning algorithms;Transforms;Compressive sensing;parallel imaging;parameter mapping;locally low-rank regularization;Algorithms;Artifacts;Image Processing, Computer-Assisted;Magnetic Resonance Imaging},
+doi={10.1109/TMI.2017.2659742},
+ISSN={1558-254X},
+month={June},
+url="https://ieeexplore.ieee.org/abstract/document/7835306"}
+
+@ARTICLE{TCI2015,
+author={S. {Lefkimmiatis} and S. {Osher}},
+journal={IEEE Transactions on Computational Imaging},
+title={Nonlocal Structure Tensor Functionals for Image Regularization},
+year={2015},
+volume={1},
+number={1},
+pages={16-29},
+abstract={},
+keywords={convex programming;gradient methods;image processing;minimisation;tensors;nonlocal structure tensor functionals;inverse imaging problems;nonlocal regularization methods;graph gradient;nonlocal energy functionals;standard image gradient;natural images;local structural image regularity;nonlocal image self-similarity;image location;convex optimization;minimization algorithm;splitting variable strategy;augmented Lagrangian formulation;alternating-direction methods;Tensile stress;Imaging;TV;Eigenvalues and eigenfunctions;Image reconstruction;Image edge detection;Standards;Image reconstruction;non-local regularization;structure tensor;total variation;convex optimization;Image reconstruction;nonlocal regularization;structure tensor;total variation;convex optimization},
+doi={10.1109/TCI.2015.2434616},
+ISSN={2573-0436},
+month={March},
+url="ftp://ftp.math.ucla.edu/pub/camreport/cam15-04.pdf"}
+
+@article{SIAM2015,
+author = {S. {Lefkimmiatis} and A. {Roussos} and P. {Maragos} and M. {Unser}},
+title = {Structure Tensor Total Variation},
+journal = {SIAM Journal on Imaging Sciences},
+volume = {8},
+number = {2},
+pages = {1090-1122},
+year = {2015},
+abstract={We introduce a novel generic energy functional that we employ to solve inverse imaging problems within a variational framework. The proposed regularization family, termed as structure tensor total variation (STV), penalizes the eigenvalues of the structure tensor and is suitable for both grayscale and vector-valued images. It generalizes several existing variational penalties, including the total variation seminorm and vectorial extensions of it. Meanwhile, thanks to the structure tensor's ability to capture first-order information around a local neighborhood, the STV functionals can provide more robust measures of image variation. Further, we prove that the STV regularizers are convex while they also satisfy several invariance properties w.r.t. image transformations. These properties qualify them as ideal candidates for imaging applications. In addition, for the discrete version of the STV functionals we derive an equivalent definition that is based on the patch-based Jacobian operator, a novel linear operator which extends the Jacobian matrix. This alternative definition allow us to derive a dual problem formulation. The duality of the problem paves the way for employing robust tools from convex optimization and enables us to design an efficient and parallelizable optimization algorithm. Finally, we present extensive experiments on various inverse imaging problems, where we compare our regularizers with other competing regularization approaches. Our results are shown to be systematically superior, both quantitatively and visually.},
+doi = {10.1137/14098154X},
+ISSN={1936-4954},
+url = "http://cvsp.cs.ntua.gr/publications/jpubl+bchap/LefkimmiatisRoussosMaragosUnser_STV_siamjIS2015.pdf"}
+
+@ARTICLE{SPL2015,
+author={E. {Bostan} and S. {Lefkimmiatis} and O. {Vardoulis} and N. {Stergiopulos} and M. {Unser}},
+journal={IEEE Signal Processing Letters},
+title={Improved Variational Denoising of Flow Fields with Application to Phase-Contrast MRI Data},
+year={2015},
+volume={22},
+number={6},
+pages={762-766},
+abstract={We propose a new variational framework for the problem of reconstructing flow fields from noisy measurements. The formalism is based on regularizers penalizing the singular values of the Jacobian of the field. Specifically, we rely on the nuclear norm. Our method is invariant with respect to fundamental transformations and can be efficiently solved. We conduct numerical experiments on several phantom data and report improved performance compared to existing vectorial extensions of total variation and curl-divergence regularizations. Finally, we apply our reconstruction method to an experimentally-acquired phase-contrast MRI recording for enhancing the data visualization.},
+keywords={biomedical MRI;image denoising;image reconstruction;medical image processing;improved variational denoising;flow field reconstruction;phase-contrast MRI data;noisy measurements;regularizers;nuclear norm;phantom data;vectorial extensions;curl-divergence regularizations;data visualization;TV;Vectors;Jacobian matrices;Noise reduction;Magnetic resonance imaging;Signal processing algorithms;4D MRI;denoising;flow fields;flow MRI;Jacobian;PCMRI;phase-constrast MRI;regularization;Schatten norms;vector fields;vectorial total variation},
+doi={10.1109/LSP.2014.2369212},
+ISSN={1558-2361},
+month={June},
+url = "http://bigwww.epfl.ch/preprints/bostan1401p.ps"}
+
+@article{OE13,
+author = {M. {Nilchian} and C. {Vonesch} and S. {Lefkimmiatis} and P. {Modregger} and M. {Stampanoni} and M. {Unser}},
+journal = {Opt. Express},
+keywords = {Image reconstruction techniques; Inverse problems; Tomography; X-ray imaging; Algorithms; Image reconstruction; In vivo imaging; Phase contrast imaging; Reconstruction algorithms; Refractive index},
+number = {26},
+pages = {32340--32348},
+publisher = {OSA},
+title = {Constrained regularized reconstruction of X-ray-DPCI tomograms with weighted-norm},
+volume = {21},
+month = {Dec},
+year = {2013},
+url = {http://www.opticsexpress.org/abstract.cfm?URI=oe-21-26-32340},
+doi = {10.1364/OE.21.032340},
+abstract = {In this paper we introduce a new reconstruction algorithm for X-ray differential phase-contrast Imaging (DPCI). Our approach is based on 1) a variational formulation with a weighted data term and 2) a variable-splitting scheme that allows for fast convergence while reducing reconstruction artifacts. In order to improve the quality of the reconstruction we take advantage of higher-order total-variation regularization. In addition, the prior information on the support and positivity of the refractive index is considered, which yields significant improvement. We test our method in two reconstruction experiments involving real data; our results demonstrate its potential for in-vivo and medical imaging.},
+url = "http://bigwww.epfl.ch/publications/nilchian1303.pdf"
+}
+
+@ARTICLE{TIP2013b,
+author={S. {Lefkimmiatis} and M. {Unser}},
+journal={IEEE Transactions on Image Processing},
+title={Poisson Image Reconstruction With Hessian Schatten-Norm Regularization},
+year={2013},
+volume={22},
+number={11},
+pages={4314-4327},
+abstract={Poisson inverse problems arise in many modern imaging applications, including biomedical and astronomical ones. The main challenge is to obtain an estimate of the underlying image from a set of measurements degraded by a linear operator and further corrupted by Poisson noise. In this paper, we propose an efficient framework for Poisson image reconstruction, under a regularization approach, which depends on matrix-valued regularization operators. In particular, the employed regularizers involve the Hessian as the regularization operator and Schatten matrix norms as the potential functions. For the solution of the problem, we propose two optimization algorithms that are specifically tailored to the Poisson nature of the noise. These algorithms are based on an augmented-Lagrangian formulation of the problem and correspond to two variants of the alternating direction method of multipliers. Further, we derive a link that relates the proximal map of an lp norm with the proximal map of a Schatten matrix norm of order p. This link plays a key role in the development of one of the proposed algorithms. Finally, we provide experimental results on natural and biological images for the task of Poisson image deblurring and demonstrate the practical relevance and effectiveness of the proposed framework.},
+keywords={image restoration;matrix algebra;optimisation;stochastic processes;Poisson image reconstruction;Hessian Schatten-norm regularization;Poisson inverse problems;linear operator;regularization approach;matrix-valued regularization operators;Schatten matrix norms;augmented-Lagrangian formulation;Poisson image deblurring;optimization algorithms;proximal map;Poisson noise;Hessian operator;schatten norms;eigenvalue optimization;ADMM;image reconstruction;Algorithms;Artifacts;Computer Simulation;Data Interpretation, Statistical;Image Enhancement;Image Interpretation, Computer-Assisted;Microscopy, Electron;Models, Statistical;Poisson Distribution;Reproducibility of Results;Sensitivity and Specificity},
+doi={10.1109/TIP.2013.2271852},
+ISSN={1941-0042},
+month={Nov},
+url= "http://bigwww.epfl.ch/publications/lefkimmiatis1303.pdf"}
+
+@ARTICLE{TIP2013a,
+author={S. {Lefkimmiatis} and J. P. {Ward} and M. {Unser}},
+journal={IEEE Transactions on Image Processing},
+title={Hessian Schatten-Norm Regularization for Linear Inverse Problems},
+year={2013},
+volume={22},
+number={5},
+pages={1873-1888},
+abstract={We introduce a novel family of invariant, convex, and non-quadratic functionals that we employ to derive regularized solutions of ill-posed linear inverse imaging problems. The proposed regularizers involve the Schatten norms of the Hessian matrix, which are computed at every pixel of the image. They can be viewed as second-order extensions of the popular total-variation (TV) semi-norm since they satisfy the same invariance properties. Meanwhile, by taking advantage of second-order derivatives, they avoid the staircase effect, a common artifact of TV-based reconstructions, and perform well for a wide range of applications. To solve the corresponding optimization problems, we propose an algorithm that is based on a primal-dual formulation. A fundamental ingredient of this algorithm is the projection of matrices onto Schatten norm balls of arbitrary radius. This operation is performed efficiently based on a direct link we provide between vector projections onto norm balls and matrix projections onto Schatten norm balls. Finally, we demonstrate the effectiveness of the proposed methods through experimental results on several inverse imaging problems with real and simulated data.
+},
+keywords={Hessian matrices;image reconstruction;inverse problems;optimisation;vectors;Hessian Schatten-Norm regularization;invariant functional;convex functional;nonquadratic functional;ill-posed linear inverse imaging problem;Hessian matrix projection;second-order extension;total-variation seminorm ball;second-order derivative;staircase effect;TV-based reconstruction;optimization problem;primal-dual formulation;Schatten norm ball;vector projection;arbitrary radius;Image reconstruction;TV;Vectors;Imaging;Minimization;Linear programming;Inverse problems;Eigenvalue optimization;Hessian operator;image reconstruction;matrix projections;Schatten norms;Algorithms;Diagnostic Imaging;Face;Humans;Image Processing, Computer-Assisted;Models, Theoretical},
+doi={10.1109/TIP.2013.2237919},
+ISSN={1941-0042},
+month={May},
+url = "http://bigwww.epfl.ch/publications/lefkimmiatis1302.pdf"}
+
+@ARTICLE{TIP2012,
+author={S. {Lefkimmiatis} and A. {Bourquard} and M. {Unser}},
+journal={IEEE Transactions on Image Processing},
+title={Hessian-Based Norm Regularization for Image Restoration With Biomedical Applications},
+year={2012},
+volume={21},
+number={3},
+pages={983-995},
+abstract={We present nonquadratic Hessian-based regularization methods that can be effectively used for image restoration problems in a variational framework. Motivated by the great success of the total-variation (TV) functional, we extend it to also include second-order differential operators. Specifically, we derive second-order regularizers that involve matrix norms of the Hessian operator. The definition of these functionals is based on an alternative interpretation of TV that relies on mixed norms of directional derivatives. We show that the resulting regularizers retain some of the most favorable properties of TV, i.e., convexity, homogeneity, rotation, and translation invariance, while dealing effectively with the staircase effect. We further develop an efficient minimization scheme for the corresponding objective functions. The proposed algorithm is of the iteratively reweighted least-square type and results from a majorization-minimization approach. It relies on a problem-specific preconditioned conjugate gradient method, which makes the overall minimization scheme very attractive since it can be applied effectively to large images in a reasonable computational time. We validate the overall proposed regularization framework through deblurring experiments under additive Gaussian noise on standard and biomedical images.
+},
+keywords={AWGN;conjugate gradient methods;Hessian matrices;image restoration;least squares approximations;medical image processing;minimisation;Hessian-based norm regularization;image restoration;biomedical applications;total-variation functional;second-order differential operators;translation invariance;homogeneity;iteratively reweighted least squares;second-order regularizers;minimization scheme;majorization-minimization approach;conjugate gradient method;deblurring experiments;additive Gaussian noise;biomedical images;TV;Image restoration;Minimization;Biomedical imaging;Eigenvalues and eigenfunctions;Laplace equations;Gaussian noise;Biomedical imaging;Frobenius norm;Hessian matrix;image deblurring;linear inverse problems;majorization–minimization (MM) algorithms;spectral norm;Algorithms;Image Enhancement;Image Interpretation, Computer-Assisted;Pattern Recognition, Automated},
+doi={10.1109/TIP.2011.2168232},
+ISSN={1941-0042},
+month={March},
+url = "http://bigwww.epfl.ch/publications/lefkimmiatis1201.pdf"}
+
+@ARTICLE{TIP2009,
+author={S. {Lefkimmiatis} and P. {Maragos} and G. {Papandreou}},
+journal={IEEE Transactions on Image Processing},
+title={Bayesian Inference on Multiscale Models for Poisson Intensity Estimation: Applications to Photon-Limited Image Denoising},
+year={2009},
+volume={18},
+number={8},
+pages={1724-1741},
+abstract={We present an improved statistical model for analyzing Poisson processes, with applications to photon-limited imaging. We build on previous work, adopting a multiscale representation of the Poisson process in which the ratios of the underlying Poisson intensities (rates) in adjacent scales are modeled as mixtures of conjugate parametric distributions. Our main contributions include: 1) a rigorous and robust regularized expectation-maximization (EM) algorithm for maximum-likelihood estimation of the rate-ratio density parameters directly from the noisy observed Poisson data (counts); 2) extension of the method to work under a multiscale hidden Markov tree model (HMT) which couples the mixture label assignments in consecutive scales, thus modeling interscale coefficient dependencies in the vicinity of image edges; 3) exploration of a 2-D recursive quad-tree image representation, involving Dirichlet-mixture rate-ratio densities, instead of the conventional separable binary-tree image representation involving beta-mixture rate-ratio densities; and 4) a novel multiscale image representation, which we term Poisson-Haar decomposition, that better models the image edge structure, thus yielding improved performance. Experimental results on standard images with artificially simulated Poisson noise and on real photon-limited images demonstrate the effectiveness of the proposed techniques.
+},
+keywords={Bayes methods;expectation-maximisation algorithm;hidden Markov models;image denoising;image representation;quadtrees;recursive estimation;stochastic processes;Bayesian inference;Poisson intensity estimation;photon-limited image denoising;statistical model;multiscale image representation;conjugate parametric distribution;regularized expectation-maximization algorithm;maximum-likelihood estimation;rate-ratio density parameters;multiscale hidden Markov tree model;mixture label assignment;interscale coefficient;image edges;2D recursive quad-tree image;Dirichlet-mixture rate-ratio densities;Poisson-Haar decomposition;image edge structure;artificially simulated Poisson noise;Bayesian methods;Image denoising;Hidden Markov models;Image representation;Degradation;Noise level;Additive noise;Image analysis;Robustness;Maximum likelihood estimation;Bayesian inference;expectation-maximization (EM) algorithm;hidden Markov tree (HMT);photon-limited imaging;Poisson-Haar decomposition;Poisson processes;Algorithms;Bayes Theorem;Image Processing, Computer-Assisted;Markov Chains;Models, Statistical;Optics and Photonics;Poisson Distribution},
+doi={10.1109/TIP.2009.2022008},
+ISSN={1941-0042},
+month={Aug},
+url="http://cvsp.cs.ntua.gr/publications/jpubl+bchap/LefkimmiatisMaragosPapandreou_BayesianMultiscalePoissonIntensityEstimation_ieee-j-ip09.pdf"}
+
+@article{SC2007,
+title = "A generalized estimation approach for linear and nonlinear microphone array post-filters",
+journal = "Speech Communication",
+volume = "49",
+number = "7",
+pages = "657 - 666",
+year = "2007",
+note = "Speech Enhancement",
+issn = "0167-6393",
+doi = "https://doi.org/10.1016/j.specom.2007.02.004",
+url = "http://cvsp.cs.ntua.gr/publications/jpubl+bchap/LefkimmiatisMaragos_GeneralizedEstimationMicrophoneArrays_specom2007.pdf",
+author = "S. {Lefkimmiatis} and P. {Maragos}",
+keywords = "Nonlinear, Noise reduction, Speech enhancement, Microphone array, Post-filter, Complex coherence",
+abstract = "This paper presents a robust and general method for estimating the transfer functions of microphone array post-filters, derived under various speech enhancement criteria. For the case of the mean square error (MSE) criterion, the proposed method is an improvement of the existing McCowan post-filter, which under the assumption of a known noise field coherence function uses the auto- and cross-spectral densities of the microphone array noisy inputs to estimate the Wiener post-filter transfer function. In contrast to McCowan post-filter, the proposed method takes into account the noise reduction performed by the minimum variance distortionless response (MVDR) beamformer and obtains a more accurate estimation of the noise spectral density. Furthermore, the proposed estimation approach is general and can be used for the derivation of both linear and nonlinear microphone array post-filters, according to the utilized enhancement criterion. In experiments with real noise multichannel recordings the proposed technique has shown to obtain a significant gain over the other studied methods in terms of five different objective speech quality measures."
+}
+
+
+@misc{Arxiv2019,
+title={Microscopy Image Restoration with Deep Wiener-Kolmogorov filters},
+author={V. {Pronina} and F. {Kokkinos} and D. {Dylov} and S. {Lefkimmiatis}},
+month = {Nov},
+year={2019},
+eprint={1911.10989},
+archivePrefix={arXiv},
+primaryClass={cs.CV},
+abstract = {Microscopy is a powerful visualization tool in biology, enabling the study of cells, tissues, and the fundamental biological processes. Yet, the observed images of the objects at the micro-scale suffer from two major inherent distortions: the blur caused by the diffraction of light, and the background noise caused by the imperfections of the imaging detectors. The latter is especially severe in fluorescence and in confocal microscopes, which are known for operating at the low photon count with the Poisson noise statistics. Restoration of such images is usually accomplished by image deconvolution, with the nature of the noise statistics taken into account, and by solving an optimization problem given some prior information about the underlying data (i.e., regularization). In this work, we propose a unifying framework of algorithms for Poisson image deblurring and denoising. The algorithms are based on deep learning techniques for the design of learnable regularizers paired with an appropriate optimization scheme. Our extensive experimentation line showcases that the proposed approach achieves superior quality of image reconstruction and beats the solutions that rely on deep learning or on the optimization schemes alone. Moreover, several implementations of the proposed framework demonstrate competitive performance at a low computational complexity, which is of high importance for real-time imaging applications.},
+url = "https://arxiv.org/pdf/1911.10989"	
+}
+
+@InProceedings{CVPR2019,
+author = {K. {Filippos} and S. {Lefkimmiatis}},
+title = {Iterative Residual CNNs for Burst Photography Applications},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2019},
+abstract={Modern inexpensive imaging sensors suffer from inherent hardware constraints which often result in captured images of poor quality. Among the most common ways to deal with such limitations is to rely on burst photography, which nowadays acts as the backbone of all modern smartphone imaging applications. In this work, we focus on the fact that every frame of a burst sequence can be accurately described by a forward (physical) model. This, in turn, allows us to restore a single image of higher quality from a sequence of low-quality images as the solution of an optimization problem. Inspired by an extension of the gradient descent method that can handle non-smooth functions, namely the proximal gradient descent, and modern deep learning techniques, we propose a convolutional iterative network with a transparent architecture. Our network uses a burst of low-quality image frames and is able to produce an output of higher image quality recovering fine details which are not distinguishable in any of the original burst frames. We focus both on the burst photography pipeline as a whole, i.e., burst demosaicking and denoising, as well as on the traditional Gaussian denoising task. The developed method demonstrates consistent state-of-the art performance across the two tasks and as opposed to other recent deep learning approaches does not have any inherent restrictions either to the number of frames or their ordering.
+},
+url = "http://openaccess.thecvf.com/content_CVPR_2019/papers/Kokkinos_Iterative_Residual_CNNs_for_Burst_Photography_Applications_CVPR_2019_paper.pdf"
+}
+
+
+@InProceedings{CVPR2018,
+author = {S. {Lefkimmiatis}},
+title = {Universal Denoising Networks : A Novel CNN Architecture for Image Denoising},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2018},
+abstract = {We design a novel network architecture for learning discriminative image models that are employed to efficiently tackle the problem of grayscale and color image denoising. Based on the proposed architecture, we introduce two different variants. The first network involves convolutional layers as a core component, while the second one relies instead on non-local filtering layers and thus it is able to exploit the inherent non-local self-similarity property of natural images. As opposed to most of the existing deep network approaches, which require the training of a specific model for each considered noise level, the proposed models are able to handle a wide range of noise levels using a single set of learned parameters, while they are very robust when the noise degrading the latent image does not match the statistics of the noise used during training. The latter argument is supported by results that we report on publicly available images corrupted by unknown noise and which we compare against solutions obtained by competing methods. At the same time the introduced networks achieve excellent results under additive white Gaussian noise (AWGN), which are comparable to those of the current state-of-the-art network, while they depend on a more shallow architecture with the number of trained parameters being one order of magnitude smaller. These properties make the proposed networks ideal candidates to serve as sub-solvers on restoration methods that deal with general inverse imaging problems such as deblurring, demosaicking, superresolution, etc.
+},
+url = "http://openaccess.thecvf.com/content_cvpr_2018/papers/Lefkimmiatis_Universal_Denoising_Networks_CVPR_2018_paper.pdf"
+}
+
+@InProceedings{ECVV2018,
+author="F. {Kokkinos}
+and S. {Lefkimmiatis}",
+editor="Ferrari, Vittorio
+and Hebert, Martial
+and Sminchisescu, Cristian
+and Weiss, Yair",
+title="Deep Image Demosaicking Using a Cascade of Convolutional Residual Denoising Networks",
+booktitle="Computer Vision -- ECCV 2018",
+year="2018",
+publisher="Springer International Publishing",
+pages="317--333",
+abstract="Demosaicking and denoising are among the most crucial steps of modern digital camera pipelines and their joint treatment is a highly ill-posed inverse problem where at-least two-thirds of the information are missing and the rest are corrupted by noise. This poses a great challenge in obtaining meaningful reconstructions and a special care for the efficient treatment of the problem is required. While there are several machine learning approaches that have been recently introduced to deal with joint image demosaicking-denoising, in this work we propose a novel deep learning architecture which is inspired by powerful classical image regularization methods and large-scale convex optimization techniques. Consequently, our derived network is more transparent and has a clear interpretation compared to alternative competitive deep learning approaches. Our extensive experiments demonstrate that our network outperforms any previous approaches on both noisy and noise-free data. This improvement in reconstruction quality is attributed to the principled way we design our network architecture, which also requires fewer trainable parameters than the current state-of-the-art deep network solution. Finally, we show that our network has the ability to generalize well even when it is trained on small datasets, while keeping the overall number of trainable parameters low.",
+isbn="978-3-030-01264-9",
+url = "https://arxiv.org/abs/1803.05215"
+}
+
+
+@InProceedings{CVPR2017,
+author = {S. {Lefkimmiatis}},
+title = {Non-Local Color Image Denoising With Convolutional Neural Networks},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {July},
+year = {2017},
+abstract = {We propose a novel deep network architecture for grayscale and color image denoising that is based on a non-local image model. Our motivation for the overall design of the proposed network stems from variational methods that exploit the inherent non-local self-similarity property of natural images. We build on this concept and introduce deep networks that perform non-local processing and at the same time they significantly benefit from discriminative learning. Experiments on the Berkeley segmentation dataset, comparing several state-of-the-art methods, show that the proposed non-local models achieve the best reported denoising performance both for grayscale and color images for all the tested noise levels. It is also worth noting that this increase in performance comes at no extra cost on the capacity of the network compared to existing alternative deep network architectures. In addition, we highlight a direct link of the proposed non-local models to convolutional neural networks. This connection is of significant importance since it allows our models to take full advantage of the latest advances on GPU computing in deep learning and makes them amenable to efficient implementations through their inherent parallelism.},
+url ="http://openaccess.thecvf.com/content_cvpr_2017/papers/Lefkimmiatis_Non-Local_Color_Image_CVPR_2017_paper.pdf"
+}
+ 
+@InProceedings{SSVM2013,
+author="S. {Lefkimmiatis} and A. {Roussos} and M. {Unser} and P. {Maragos}",
+editor="Kuijper, Arjan
+and Bredies, Kristian
+and Pock, Thomas
+and Bischof, Horst",
+title="Convex Generalizations of Total Variation Based on the Structure Tensor with Applications to Inverse Problems",
+booktitle="Scale Space and Variational Methods in Computer Vision",
+year="2013",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="48--60",
+abstract="We introduce a generic convex energy functional that is suitable for both grayscale and vector-valued images. Our functional is based on the eigenvalues of the structure tensor, therefore it penalizes image variation at every point by taking into account the information from its neighborhood. It generalizes several existing variational penalties, such as the Total Variation and vectorial extensions of it. By introducing the concept of patch-based Jacobian operator, we derive an equivalent formulation of the proposed regularizer that is based on the Schatten norm of this operator. Using this new formulation, we prove convexity and develop a dual definition for the proposed energy, which gives rise to an efficient and parallelizable minimization algorithm. Moreover, we establish a connection between the minimization of the proposed convex regularizer and a generic type of nonlinear anisotropic diffusion that is driven by a spatially regularized and adaptive diffusion tensor. Finally, we perform extensive experiments with image denoising and deblurring for grayscale and color images. The results show the effectiveness of the proposed approach as well as its improved performance compared to Total Variation and existing vectorial extensions of it.",
+isbn="978-3-642-38267-3",
+url = "http://cvsp.cs.ntua.gr/publications/confr/LRUM_ConvexGeneralizationsTotalVariationStructureTensorInverseProblems_SSVM2013.pdf"
+}
+
+
+
+

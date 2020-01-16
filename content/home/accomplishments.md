@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Accomplish&shy;ments"
+title = "Honors & Awards"
 subtitle = ""
 
 # Date format
@@ -19,33 +19,61 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
-  url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  organization = "IEEE Signal Processing Society"
+  organization_url = "https://signalprocessingsociety.org/"
+  title = "2017 Best Paper Award"
+  url = "https://signalprocessingsociety.org/sites/default/files/uploads/get_involved/awards/Best_Paper.pdf"
+  date_start = "2017-12-31"
   date_end = ""
-  description = ""
+  description = """Best paper award for the paper :
+* S. Lefkimmiatis, A. Bourquard and M. Unser, **Hessian-Based Norm Regularization for Image Restoration With Biomedical Applications**, 
+IEEE Transactions on Image Processing, Volume 21, No. 3, March 2012"""
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
+  organization = "Swiss National Science Foundation"
+  organization_url = "http://www.snf.ch/en/"
+  title = "Advanced Postdoc Mobility Fellowship"
+  date_start = "2014-05-01"
+  date_end = "2015-10-31"
+
+[[item]]
+  organization = "Bodossaki Foundation"
+  organization_url = "http://bodossaki.gr/en/"
+  title = "PhD scholarship"
+  date_start = "2006-01-01"
+  date_end = "2009-12-31"
+  description = "PhD scholarship based on academic achievements"
+
+[[item]]
+  organization = "National Technical University of Athens"
+  organization_url = "https://www.ntua.gr/en"
+  title = "Thomaidio Award"
+  url = ""
+  certificate_url = ""
+  date_start = "2009-09-01"
   date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
+  description = """Award for the paper :
+* S. Lefkimmiatis, P. Maragos and G. Papandreou, **Bayesian inference on multiscale models for Poisson intensity estimation: Applications to photon-limited image denoising**, IEEE Trans. Image Process., vol. 18, no. 8, pp. 1724–1741, August 2009.""" 
   
 [[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = "Technical Chamber of Greece"
+  organization_url = "http://portal.tee.gr/portal/page/portal/TEE/TCG"
+  title = "TEE Award"
   url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
+  certificate_url = ""
+  date_start = "2005-01-01"
+  date_end = ""
+  description = """Award to top ranking students in the School of Computer Engineering  Informatics"""
+
+[[item]]
+  organization = "Greek State Scholarships Foundation"
+  organization_url = "https://www.iky.gr/en/"
+  title = "IKY Award"
+  url = ""
+  certificate_url = ""
+  date_start = "2004-01-01"
+  date_end = ""
+  description = """Award to top ranking students in the School of Computer Engineering & Informatics for the academic year 2002-2003"""
+
 
 +++
