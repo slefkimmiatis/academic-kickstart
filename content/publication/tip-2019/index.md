@@ -9,7 +9,7 @@ featured: true
 publication: "*IEEE Transactions on Image Processing*"
 url_pdf: "https://arxiv.org/pdf/1807.06403.pdf"
 url_code: "https://github.com/slefkimmiatis/deep_demosaick"
-url_project: "https://cig.skoltech.ru/deep_demosaick/"
+url_project: "https://cig-skoltech.github.io/deep_demosaick/"
 doi: "10.1109/TIP.2019.2905991"
 # Featured image
 # To use, place an image named `featured.jpg/png` in your page's folder.

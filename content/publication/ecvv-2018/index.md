@@ -9,6 +9,6 @@ featured: false
 publication: "*Computer Vision -- ECCV 2018*"
 url_pdf: "https://arxiv.org/abs/1803.05215"
 url_code: "https://github.com/cig-skoltech/deep_demosaick"
-url_project: "https://cig.skoltech.ru/deep_demosaick/"
+url_project: "https://cig-skoltech.github.io/deep_demosaick/"
 ---
 
