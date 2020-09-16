@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   location = "San Francisco, CA, USA"
   date_start = "2019-02-01"
   date_end = ""
-  description = """Responsible for leading the R&D efforts of the Radiomics team in the areas of parallel and quantitative MRI."""
+  description = """Responsible for leading the R&D efforts of the Radiomics team in the areas of parallel and quantitative MRI reconstruction."""
 
 [[experience]]
   title = "Assistant Professor"
