@@ -1,6 +1,6 @@
 ---
 title: "Microscopy Image Restoration with Deep Wiener-Kolmogorov filters"
-date: 2019-11-01
+date: 2020-08-01
 publishDate: 2020-01-15T07:43:10.140690Z
 authors: ["V. Pronina", "F. Kokkinos", "D. Dylov", "S. Lefkimmiatis"]
 publication_types: ["1"]
