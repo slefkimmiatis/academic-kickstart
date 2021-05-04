@@ -68,8 +68,7 @@ user_groups:
 - Visitors
 ---
 
-I am a Senior Research Scientist in the Radiomics R&D team with [Q Bio](https://q.bio), where I am responsible for developing algorithms and methods that improve Medical Imaging.
-From 2016 to 2019, I was an Assistant Professor at Skolkovo Institute of Science and Technology [(Skoltech)](https://www.skoltech.ru/en), Moscow and director of the Computational Imaging Group [(CIG)](https://cig-skoltech.github.io/). I have also held Postdoctoral Research Associate positions with the Biomedical Imaging Group at [EPFL](http://bigwww.epfl.ch) and the Department of Applied Mathematics at [UCLA](https://math.ucla.edu). 
+I am a Senior Team Lead of the Computational Imaging team in the Noah's Ark Lab, Huawei (https://www.noahlab.com.hk), where I am responsible for the R&D efforts in image and video processing and low-level computer vision. Prior to that I was a Senior Research Scientist in the Radiomics R&D team with [Q Bio](https://q.bio). From 2016 to 2019, I was an Assistant Professor at Skolkovo Institute of Science and Technology [(Skoltech)](https://www.skoltech.ru/en), Moscow and director of the Computational Imaging Group [(CIG)](https://cig-skoltech.github.io/). I have also held Postdoctoral Research Associate positions with the Biomedical Imaging Group at [EPFL](http://bigwww.epfl.ch) and the Department of Applied Mathematics at [UCLA](https://math.ucla.edu). 
 
 My research interests lie in the areas of computational imaging, machine & deep learning, computer vision and large-scale optimization. My current focus is on inverse imaging
 problems, including, denoising, deconvolution, super-resolution, demosaicking, compressive sensing, etc., with applications in digital photography, biomicroscopy and medical imaging.
