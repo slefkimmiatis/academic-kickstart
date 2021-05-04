@@ -18,12 +18,21 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Senior Team Lead / Expert"
+  company = "Noah's Ark Lab, Huawei Technologies"
+  company_url = "https://www.noahlab.com.hk/"
+  location = "Moscow, Russia"
+  date_start = "20201-01-01"
+  date_end = ""
+  description = """Responsible for leading the R&D efforts in the areas of computatioanl imaging and low level computer vision with focus on image and video applications."""
+
+[[experience]]
   title = "Senior Research Scientist"
   company = "Q Bio Inc."
   company_url = "https://q.bio"
   location = "San Francisco, CA, USA"
   date_start = "2019-02-01"
-  date_end = ""
+  date_end = "2020-12-31"
   description = """Responsible for leading the R&D efforts of the Radiomics team in the areas of parallel and quantitative MRI reconstruction."""
 
 [[experience]]
